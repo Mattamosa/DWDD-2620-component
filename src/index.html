@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link href="/output.css" rel="stylesheet">
+    <title>Tailwind Component 1</title>
+</head>
+<!-- body -->
+<body class="m-0 p-0 font-sans font-normal">
+    <!-- Layer 1 (remove m-3 and view in responsive mode iphone 11 pro for full view) -->
+    <section class="m-3 w-[23.438rem] h-[50.75rem] rounded-[2rem] bg-white">
+        <!-- Layer 2 -->
+        <section class="bg-layer2gray w-[23.438rem] h-[50.75rem] flex items-center rounded-[2rem]">
+            <!-- card-popover -->
+            <div class="w-[20.438rem] h-[28.875rem] rounded-2xl bg-white m-6 center">
+                <!-- card-image -->
+                <div class="w-[20.438rem] h-[11.625rem] rounded-t-2xl border-none">
+                    <img class="rounded-t-2xl" src="abstract.jpg" alt="">
+                </div>
+                <!-- card-content -->
+                <div class="w-[20.438rem] h-[17.25rem] bg-white m-0 p-0 text-black rounded-b-2xl flex flex-col justify-center items-center tracking-wider">
+                    <h4 class="text-2xl font-medium text-black m-0 mb-3 text-center">
+                        <b>Introducing Virtual <br class="text-center"> Reality</b>
+                    </h4>
+                    <p class="text-base font-light text-cardPgray mb-[1.6rem]">Please check out all-new feature</p>
+                    <!-- btn1 -->
+                    <button class="w-[18.563rem] h-12 rounded-[3rem] text-base font-medium border-none mb-2 cursor-pointer bg-btnColor text-white">Button</button>
+                    <!-- btn2 -->
+                    <button class="w-[18.563rem] h-12 rounded-[3rem] text-base font-medium border-none mb-2 cursor-pointer text-btnColor">Button</button>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
